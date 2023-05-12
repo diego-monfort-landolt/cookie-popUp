@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+}
+body {
+    background-image: url(/compt2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.cookie-container {
+    background: linear-gradient(260deg, #9b6c15 0%, #4f2626 100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    
+    width: 20rem;
+    height: 12rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+
+    box-shadow: 4px 4px 4px 5px #000f00eb;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.text {
+    width: 85%;
+}
+.cookie {
+    
+    padding-right: 1.2rem;
+
+}
+.cookie-title{
+    
+    padding: 0.1rem 0;
+
+}
+.cookie-subtitle{
+
+    font-size: 0.5rem;
+    padding: 0.2rem 0;
+}
+button {
+    border: 0.1px solid red;
+    padding: .5rem 1rem;
+    border-radius: .4rem 0 1rem 0;
+    margin: 0.2rem 0;
+    background: #000;
+    color: #fff;
+    box-shadow: 6px 6px 6px 4px#272626;
+    
+}
