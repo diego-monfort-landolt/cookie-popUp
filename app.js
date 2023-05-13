@@ -6,7 +6,7 @@ tl.fromTo('.cookie', {opacity: 0, x: -50, rotation: '-55deg'}, {opacity: 1, x: 0
 tl.fromTo('.text', {x: 30, opacity: 0}, {x: 0, opacity: 1}, '<')
 
 //cookie jump
-tl.fromTo('.cookie', {y: 0}, {y: -20, yoyo: true, repeat: -1})
+tl.fromTo('.cookie', {y: 0, rotation: '0deg'}, {y: -20, rotation: '10deg', yoyo: true, repeat: -1})
 //fading the Cookie out
 const button = document.querySelector('button');
 button.addEventListener('click', () => {
